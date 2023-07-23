@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+*{
+    font-family: 'hind',sans-serif;
+}
+
+
+/* Reset some default styles for consistency (optional) */
+.bannerbgimage{ height: 100vh; 
+    background: url("/images/bannerimage.jpg");
+     background-size: cover; 
+     position: relative;
+     } 
+.bannertext{
+     text-align: right; 
+     position: absolute;
+      top: 50%; 
+      left:50%;
+       transform:translate(-50%,-50%) ; 
+       color: ghostwhite; 
+    } 
+.bannertitle{
+     font-size: 4rem; 
+    } 
+.bannerdesc{ 
+    font-size: 2rem;
+}
+.About Me{
+    text-align: center;
+}
+
+.card{
+    cursor: pointer;
+}
+
+.card:hover{
+    background-color: paleturquoise;
+    border: 2px solid;
+}
+
+.card1{
+    cursor: pointer;
+}
+.card1:hover{
+    background-color:lavender;
+    border:5px;
+}
+.portfoilobgimage1{
+    height:auto;
+    background:url("/images/image1.jp");
+    background-size: cover;
+    position: relative;
+}
+.portfoilobgimage21{
+    height:auto;
+    background:url("/images/image2.jpg");
+    background-size: cover;
+    position: relative;
+}
+.portfoilobgimage3{
+    height:auto;
+    background:url("/images/image3.jpg");
+    background-size: cover;
+    position: relative;
+}
+import:
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
